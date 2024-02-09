@@ -1,5 +1,8 @@
-config{
-    type:"table"
-
+config {
+    type: "table"
 }
-select sum(number) from ${ref("source_table")} as total
+
+SELECT
+  SUM(number) as total
+FROM
+  ${ref("source_table")} 
