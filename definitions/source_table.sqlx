@@ -1,10 +1,12 @@
 config {
     type: "table"
-    description: "Description of the first table"
 }
 
-SELECT 1 as number
-union all
-select 5 as n umber
-union all 
-select 3 as number
+SELECT
+  1 AS number
+UNION ALL
+SELECT
+  5 AS number
+UNION ALL
+SELECT
+  3 AS number
